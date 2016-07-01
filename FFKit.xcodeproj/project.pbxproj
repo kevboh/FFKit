@@ -499,7 +499,7 @@
 		16FA9ACE19319A320090D90F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Jacob Sologub";
 			};
 			buildConfigurationList = 16FA9AD119319A320090D90F /* Build configuration list for PBXProject "FFKit" */;
@@ -619,6 +619,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -709,6 +710,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "FFKitTests/FFKitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobsologub.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = FFKitTests;
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -725,6 +727,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFKit/FFKit-Prefix.pch";
 				INFOPLIST_FILE = "FFKitTests/FFKitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobsologub.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = FFKitTests;
 				WRAPPER_EXTENSION = xctest;
 			};
